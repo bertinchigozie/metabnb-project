@@ -1,5 +1,5 @@
 import React from 'react'
-import{createBrowserRouter, RouterProvider, Route} from 'react-router-dom'
+import{createBrowserRouter, RouterProvider} from 'react-router-dom'
 import { Auxilliary as Aux } from '../../hoc/Auxilliary/Auxilliary'
 import Home from '../../components/Pages/home/Home'
 import Place from '../../components/Pages/placeToStay/Place'
