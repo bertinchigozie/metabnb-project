@@ -12,14 +12,14 @@ const PlaceSidebar = (props) => {
           <div className={classes.place__linksBox}>
            <div className={classes.sidebar}>
                   <ul className={classes.place__links}>
-                    <li className={classes.navlinks__item}><a href='#restuarant' rel='noreferrer'>Resturant</a></li>
-                    <li className={classes.navlinks__item}><a href='#cottage' rel='noreferrer'>Cottage</a></li>
-                    <li className={classes.navlinks__item}><a href='#castle' rel='noreferrer'>Castle</a></li>
-                    <li className={classes.navlinks__item}><a href='#fantastCity' rel='noreferrer'>fantast city</a></li>
-                    <li className={classes.navlinks__item}><a href='#beach' rel='noreferrer'>beach</a></li>
-                    <li className={classes.navlinks__item}><a href='#cabins' rel='noreferrer'>Cabins</a></li>
-                    <li className={classes.navlinks__item}><a href='#off-grid' rel='noreferrer'>Off-grid</a></li>
-                    <li className={classes.navlinks__item}><a href='#farm' rel='noreferrer'>Farm</a></li>
+                    <li className={classes.navlinks__item}><a href='restuarant' rel='noreferrer'>Resturant</a></li>
+                    <li className={classes.navlinks__item}><a href='cottage' rel='noreferrer'>Cottage</a></li>
+                    <li className={classes.navlinks__item}><a href='castle' rel='noreferrer'>Castle</a></li>
+                    <li className={classes.navlinks__item}><a href='fantastCity' rel='noreferrer'>fantast city</a></li>
+                    <li className={classes.navlinks__item}><a href='beach' rel='noreferrer'>beach</a></li>
+                    <li className={classes.navlinks__item}><a href='cabins' rel='noreferrer'>Cabins</a></li>
+                    <li className={classes.navlinks__item}><a href='off-grid' rel='noreferrer'>Off-grid</a></li>
+                    <li className={classes.navlinks__item}><a href='farm' rel='noreferrer'>Farm</a></li>
                    
                     <div className={classes.location}>
                     <p>Location</p>

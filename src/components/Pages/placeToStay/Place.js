@@ -80,14 +80,14 @@ const Place = (props) => {
                     Home</Link>
                     <Link to='/placeToStay' className={classes.place__links__item}>
                     Place to stay</Link>
-                    <Link to='/nfts' className={classes.place__links__item}>
+                    <Link to='/' className={classes.place__links__item}>
                     NFTS</Link>
-                    <Link to='/community' className={classes.place__links__item}>
+                    <Link to='/' className={classes.place__links__item}>
                     Community</Link>
-                    {/* <li className={classes.navlinks__item}><a href='#home' rel='noreferrer'>Home</a></li>
-                    <li className={classes.navlinks__item}><a href='#placeToStay' rel='noreferrer'>Place to stay</a></li>
-                    <li className={classes.navlinks__item}><a href='#nfts' rel='noreferrer'>NFTS</a></li>
-                    <li className={classes.navlinks__item}><a href='#community' rel='noreferrer'>Community</a></li> */}
+                    {/* <li className={classes.navlinks__item}><a href='home' rel='noreferrer'>Home</a></li>
+                    <li className={classes.navlinks__item}><a href='placeToStay' rel='noreferrer'>Place to stay</a></li>
+                    <li className={classes.navlinks__item}><a href='nfts' rel='noreferrer'>NFTS</a></li>
+                    <li className={classes.navlinks__item}><a href='community' rel='noreferrer'>Community</a></li> */}
                    
                   </ul>
                 </div>
@@ -104,14 +104,14 @@ const Place = (props) => {
            <div className={classes.flex} onClick={placesHandler}><BiDotsHorizontalRounded/></div>
            </div>
                   <ul className={classes.place__links}>
-                    <li className={classes.navlinks__item}><a href='#restuarant' rel='noreferrer'>Resturant</a></li>
-                    <li className={classes.navlinks__item}><a href='#cottage' rel='noreferrer'>Cottage</a></li>
-                    <li className={classes.navlinks__item}><a href='#castle' rel='noreferrer'>Castle</a></li>
-                    <li className={classes.navlinks__item}><a href='#fantastCity' rel='noreferrer'>fantast city</a></li>
-                    <li className={classes.navlinks__item}><a href='#beach' rel='noreferrer'>beach</a></li>
-                    <li className={classes.navlinks__item}><a href='#cabins' rel='noreferrer'>Cabins</a></li>
-                    <li className={classes.navlinks__item}><a href='#off-grid' rel='noreferrer'>Off-grid</a></li>
-                    <li className={classes.navlinks__item}><a href='#farm' rel='noreferrer'>Farm</a></li>
+                    <li className={classes.navlinks__item}><a href='restuarant' rel='noreferrer'>Resturant</a></li>
+                    <li className={classes.navlinks__item}><a href='cottage' rel='noreferrer'>Cottage</a></li>
+                    <li className={classes.navlinks__item}><a href='castle' rel='noreferrer'>Castle</a></li>
+                    <li className={classes.navlinks__item}><a href='fantastCity' rel='noreferrer'>fantast city</a></li>
+                    <li className={classes.navlinks__item}><a href='beach' rel='noreferrer'>beach</a></li>
+                    <li className={classes.navlinks__item}><a href='cabins' rel='noreferrer'>Cabins</a></li>
+                    <li className={classes.navlinks__item}><a href='off-grid' rel='noreferrer'>Off-grid</a></li>
+                    <li className={classes.navlinks__item}><a href='farm' rel='noreferrer'>Farm</a></li>
                    
                     <div className={classes.location}>
                     <p>Location</p>

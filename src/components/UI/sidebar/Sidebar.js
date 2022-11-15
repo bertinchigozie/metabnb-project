@@ -14,9 +14,9 @@ const Sidebar = (props) => {
                     Home</Link>
                     <Link to='/placeToStay' className={classes.navlinks__item}>
                     Place to stay</Link>
-                    <Link to='/nfts' className={classes.navlinks__item}>
+                    <Link to='/' className={classes.navlinks__item}>
                     NFTS</Link>
-                    <Link to='/community' className={classes.navlinks__item}>
+                    <Link to='/' className={classes.navlinks__item}>
                     Community</Link>
                 </ul>
             </div>
