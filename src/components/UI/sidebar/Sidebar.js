@@ -18,7 +18,12 @@ const Sidebar = (props) => {
                     NFTS</Link>
                     <Link to='/' className={classes.navlinks__item}>
                     Community</Link>
+                   
                 </ul>
+                <button className={classes.nav__button} onClick={props.showModal}>
+                <div>connect wallet</div>
+                </button>
+                
             </div>
         </div>
     </div>

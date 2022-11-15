@@ -26,3 +26,18 @@
     list-style: none;
     font-size: 18px;
 }
+.nav__button{
+    font-family: 'Red Rose', cursive;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    font-weight: 400;
+cursor: pointer;
+margin-left: 2.4rem;
+
+}

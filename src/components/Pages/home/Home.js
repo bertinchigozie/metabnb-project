@@ -40,7 +40,7 @@ function Home() {
     
     <Aux>
       <Modal show={show} modalClose={hideModal}/>
-      <Sidebar showSide={showSidebar} closeSidebar={hideSidebar}/>
+      <Sidebar showModal={showHandler} showSide={showSidebar} closeSidebar={hideSidebar}/>
 
       <div className={classes.main__header}>
         <header className={classes.header}>

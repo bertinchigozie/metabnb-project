@@ -61,7 +61,7 @@ const Place = (props) => {
   return (
 <Aux>
     <Modal show={show}  modalClose={hideModal}/>
-    <Sidebar showSide={showSidebar} closeSidebar={hideSidebar}/>
+    <Sidebar showModal={showHandler} showSide={showSidebar} closeSidebar={hideSidebar}/>
     <PlaceSidebar show={showPlaces} hidePlaces={hidePlaces}/>
     <div className={classes.place}>
 <div className={classes.navbar}>
