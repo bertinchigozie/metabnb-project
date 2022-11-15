@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;600;700&display=swap');
+
+:root{
+    /* --primary-color:#830783f3; */
+    --primary-color:#A02279;
+    --secondary-color:#6741d9;
+    --light-color:#fff;
+    --bg-color:#FFFFFF;
+    --logo-color-start:#DC3E88;
+--logo-color-mid:#B840AE;
+--logo-color-end:#843FE8
+}
+
+.Modal {
+    position: fixed;
+    background-color:var(--bg-color);
+    width: 70%;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px  #ccc;
+    left: 15%;
+    top: 30%;
+    box-sizing: border-box;
+    border-radius: 14px;
+    transition: all 0.3s ease-out;
+}
+.line{
+    border-bottom: 2px solid rgb(202, 198, 198);
+    
+}
+.connect__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 46px;
+}
+
+.connect{
+    font-family: 'Red Rose', cursive;
+font-size: 18px;
+letter-spacing: -1px;
+color: #2b2828;
+}
+
+.close{
+    font-size: 40px;
+    background-color:var(--bg-color);
+
+}
+
+.choose__section{
+    margin: 1rem 1rem;
+    padding: 1rem 2.4rem;
+}
+
+.flexbox__active{
+    background-color:#CFD8DC;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(202, 198, 198);
+    margin: 18px 0;
+    padding: 10px 22px;
+    border-radius: 14px;
+    
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(202, 198, 198);
+    margin: 18px 0;
+    padding: 10px 22px;
+    border-radius: 14px;
+    
+}
+.choose__text{
+    font-size: 24px;
+    font-weight: 400;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text{
+    font-family: 'Red Rose', cursive;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.icon{
+    font-size: 30px;
+}
+
+
+@media (max-width:1360px) {
+    .Modal{
+    width: 80%;
+    margin: 0 auto;
+    left: 10%;
+    top: 10%;
+    box-sizing: border-box;
+    border-radius: 14px;
+    transition: all 0.3s ease-out;
+    }
+    .connect__section{
+        font-size: 8px;
+        padding: 5px 6px;
+    }
+    .connect{
+        font-size: 10px;
+    }
+    .choose__section{
+        margin: 5px 5px;
+        padding: 5px 6px;
+    }
+    .choose__text{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .flexbox__active, .flexbox{
+        margin: 18px 0;
+        padding: 5px 10px;
+        border-radius: 14px;
+        
+    }
+    .text{
+        font-size: 10px;
+    }
+    .icon{
+        font-size: 12px;
+    }
+    .img{
+        width: 24px;
+    }
+}

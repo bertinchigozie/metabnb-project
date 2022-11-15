@@ -1,0 +1,338 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;600;700&display=swap');
+
+:root {
+    --primary-color:#A02279;
+    --secondary-color:#6741d9;
+    --light-color:#fff;
+    /* --bg-color:#FFFFFF; */
+    --bcg-color: #F5F5F5;
+    --logo-color-start:#DC3E88;
+--logo-color-mid:#B840AE;
+--logo-color-end:#843FE8;
+    --color:#4e4e4e;
+}
+.place{
+    background-color: var(--bcg-color);
+
+}
+.menu{
+    font-size: 22px;
+    font-family: 'Red Rose', cursive;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 2px;
+    border-radius: 4px;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    font-weight: 400;
+cursor: pointer;
+display: none;
+
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav__items{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.icon{
+    width: 24px;
+}
+.logo{
+    display: inline-block;
+    font-family: 'Red Rose', cursive;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    background-image: linear-gradient(to right, var(--logo-color-start),var(--logo-color-mid), var(--logo-color-end));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 0 1.4px;
+}
+.place__links{
+font-family: 'Red Rose', cursive;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+
+}
+.navlinks{
+font-family: 'Red Rose', cursive;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 30px;
+
+}
+.navlinks__item {
+    list-style: none;
+    text-decoration: none;
+}
+.place__links__item:visited, .place__links__item:link, .place__links__item {
+    text-decoration: none;
+font-style: 10px;
+color: rgba(36, 34, 34, 0.74);
+font-weight: 500;
+cursor: pointer;
+padding: 2px 4px;
+
+}
+.navlinks__item a:visited, .navlinks__item a:link, .navlinks__item a{
+    text-decoration: none;
+font-style: 10px;
+color: rgba(36, 34, 34, 0.74);
+font-weight: 500;
+cursor: pointer;
+padding: 2px 4px;
+
+}
+
+.place__links__item:hover, .place__links__item:active {
+    background-color: var(--primary-color);
+border-radius: 4px ;
+color: var(--light-color);
+transition: all 0.3s ease-out;
+
+}
+.navlinks__item a:hover, .navlinks__item a:active {
+    background-color: var(--primary-color);
+border-radius: 4px ;
+color: var(--light-color);
+transition: all 0.3s ease-out;
+
+}
+
+.nav__button{
+    font-family: 'Red Rose', cursive;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    font-weight: 400;
+cursor: pointer;
+
+}
+.place__links{
+font-family: 'Red Rose', cursive;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 50px;
+font-size: 14px;
+
+}
+.location{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(202, 198, 198);
+    border-radius: 10px ;
+    padding: 0 10px;
+    margin-right: 6rem;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dots{
+    font-size: 24px;
+    margin-left: 1rem;
+    border: 1px dashed  #A02279;
+    display: inline-block;
+    border-radius: 50%;
+    display: none;
+}
+
+.adventure__section{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 6rem;
+}
+
+
+.adventure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 1px 2px 3px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+ .description{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Red Rose', cursive;
+    font-weight: bold;
+    font-size: 10px;
+    color:var(--color);
+   
+
+
+}
+ .duration{ 
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    font-weight: bold;
+    color:var(--color);
+
+
+ }
+ .star{
+    display: flex;
+    gap: 8px;
+ }
+
+
+ @media (max-width:1310px) {
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .card{
+        padding: 20px;
+    }
+    .img{
+        width: 200px;
+    }
+    .duration, .description{
+        font-size: 8.2px;
+    }
+}
+
+@media (max-width:1090px) {
+    .place__links{
+        gap:4px;
+    }
+    .img{
+        width: 160px;
+    }
+}
+@media (max-width:960px) {
+    .navlinks__item{
+        font-size: 10px;
+    }
+    .place__links{
+        font-size: 10px;
+
+    }
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:800px) {
+    .secondary__heading{
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+@media (max-width:700px) {
+    .secondary__heading{
+        font-size: 1rem;
+        padding: 10px;
+    }
+    .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .img{
+        width: 220px;
+    }
+    .duration, .description{
+        font-size: 10px;
+    }
+}
+@media (max-width:690px) {
+    .navlinks__item{
+        font-size: 8px;
+    }
+    .place__links{
+        font-size: 8px;
+
+    }
+}
+@media (max-width:640px) {
+    .navlinks__item{
+       display: none;
+    }
+    .place__links{
+        display: none;
+
+    }
+    .nav__button{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .adventure__section{
+        margin-top: 2rem;
+    }
+    .dots{
+        display: inline-block;
+    }
+}
+
+@media (max-width:550px) {
+    .img{
+        width: 150px;
+    }
+    .duration, .description{
+        font-size: 6px;
+    }
+}
+@media (max-width:450px) {
+    .secondary__heading{
+        font-size: 0.8rem;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+       gap: 1rem;
+    }
+    .img{
+        width: 280px;
+    }
+    .duration, .description{
+        font-size: 10px;
+    }
+}
+@media (max-width:350px) {
+    .secondary__heading{
+        font-size: 0.6rem;
+    }
+    .img{
+        width: 200px;
+    }
+    .duration, .description{
+        font-size: 8px;
+    }
+}
