@@ -18,7 +18,7 @@ const Footer = () => {
                 <div><FaInstagram/></div>
                 <div><FaTwitter/></div>
             </div>
-            <div>
+            <div className={classes.copy}>
                 &copy; 2022 Metabnb
             </div>
         </div>
